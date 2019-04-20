@@ -11,11 +11,11 @@ Description: Analyze multidimensional phylogenetic profiles with a Shiny app.
 URL: https://github.com/BIONF/PhyloProfile/
 BugReports: https://github.com/BIONF/PhyloProfile/issues
 License: MIT + file LICENSE
-Depends: R (>= 3.6.0)
+Depends: R (>= 3.5.0)
 Encoding: UTF-8
 biocViews: Software, Visualization, DataRepresentation, MultipleComparison, FunctionalPrediction
 Imports:
-    ape, bioDist, BiocStyle, Biostrings, colourpicker, data.table,
+    ape, bioDist, BiocStyle, Biostrings, Cairo, colourpicker, data.table,
     dendextend, devtools, dplyr, DT, energy, GenomeInfoDbData, ggplot2, gplots,
     GO.db, grDevices, gridExtra, gtable, knitr, RColorBrewer, RCurl, reshape2,
     rmarkdown, scales, shiny, shinyBS, shinycssloaders, shinyjs, stats, stringr,
